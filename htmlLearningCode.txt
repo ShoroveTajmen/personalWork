@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+    <body>
+        </p>
+        <!--table tr(table row),td(table column),th(table heading)-->
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>shorove</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>rohan</td>
+                <td>13</td>
+            </tr>
+        </table>
+        <!--nested list-->
+        <h2>Nested list</h2>
+        <ul>
+            <li>shorove
+                <ol>
+                    <li>rohan</li>
+                </ol>
+            </li>
+        </ul>
+        <!--ol(order list)-->
+        <h1>order list</h1>
+        <ol>
+            <li>shorove</li>
+            <li>rohan</li>
+        </ol>
+        <!--ul(unorder list)-->
+        <h1>unorder list</h1>
+        <ul>
+            <li>shorove</li>
+            <li>rohan</li>
+            <li>roman</li>
+        </ul>
+        <!--navigation-->
+        <h1>Navigation bar</h1>
+        <ul>
+            <li><a href="index.html">Home page</a></li>
+            <li><a href="about.html">About page</a></li>
+        </ul>
+
+
+
+
+
+
+        <!--special character-->
+        <h1>copyright &copy; &#174;</h1>
+
+
+
+        <!--sup and sub-->
+        <h1>hello i'm shorove <sup>and
+        </sup> i'm <sub>a student
+        </sub></h1>
+        <!--strong and em-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <strong>Ad delectus molestiae quos. Soluta, ipsam</strong> 
+           Ad delectus molestiae quos. Soluta, ipsam. <em>Ad delectus molestiae quos. Soluta, ipsam</em> Voluptates nulla facilis blanditiis architecto! 
+           Illo veniam iste libero, sunt odit perspiciatis error natus dolore deserunt!</p>
+
+
+        <p id="home">thi sis top of the page</p>
+        <!--image as a link-->
+        <a href="https://www.udemy.com/">
+            <img src="./images/udemy2.jpg" alt="udemy picture two" width="100">
+        </a>
+        <!--empty link-->
+
+        <h2>empty libk</h2>
+        <a href="#">empty link</a>
+    
+        <!-- thi is comment out method -->
+        <!--external link ceration-->
+        <h2>--external <link rel="stylesheet" href=""></h2>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <!--internal link-->
+        <h2>internal link</h2>
+        <a href="about.html">about page</a>
+        <!--same page link-->
+        <p>same page link</p>
+        <a href="#udemyPic">udemy logo</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <!--udemy logo-->
+        <h1 id="udemyPic">udemy picture one</h1>
+        <br>
+        <br>
+        <img src="./images/udemy.jpg" width="246" height="200"  alt="udemy image">
+        <!--back to top link-->
+        <h6>bake to top</h6>
+        <a href="#home">back to top</a>
+
+
+    </body>
+</html>
