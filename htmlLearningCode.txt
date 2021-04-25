@@ -4,6 +4,75 @@
         <title>Home</title>
     </head>
     <body>
+
+       
+    <!--form creation-->
+    <h1>form</h1>
+    <form action="">
+        <!--input text type-->
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" id="firstnane">
+        <br>
+        <br>
+        <!--input password type-->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <br>
+        <br>
+        <!--input email type-->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="hhhh@email.com">
+        <br>
+        <br>
+        <p>Description</p>
+        <!--textarea-->
+        <textarea name="" id="" cols="10" rows="4"></textarea>
+
+        <br>
+        <br>
+        <!--radio buttons-->
+        <p>please select your favourite coding language?</p>
+        <input type="radio" name="coding" id="" value="javascript">javascript
+        <input type="radio" name="coding" id="" value="java">java
+        <input type="radio" name="coding" id="" value="python">python
+        <br>
+        <br>
+
+        <!--checkbox-->
+        <p>please select your favourite coding language?</p>
+        <input type="checkbox" name="programming" checked value="javascript" id="">Javascript
+        <input type="checkbox" name="programming" checked value="java" id="">Java
+        <input type="checkbox" name="programming" checked value="python" id="">Python
+        <br>
+        <br>
+
+        <!--select-->
+        <p>please select your favourite coding language?</p>
+        <select name="language" id="">
+            <option value="javascript">Javascript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select>
+        <br>
+        <br>
+        
+
+        <!--input submit button type-->
+       <!--<input type="submit" value="submit here"> --> 
+       <button type="submit">Submit here</button>
+
+    </form>
+    
+
+        <br>
+        <br>
+        <br>
+        <br>
+       
+
+
+
+
         </p>
         <!--table tr(table row),td(table column),th(table heading)-->
         <table>
