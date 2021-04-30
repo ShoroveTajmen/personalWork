@@ -1,0 +1,59 @@
+part 1
+-----------
+### css####
+
+/* id attribute is more specific than class attribute */
+
+
+/* universal selecter */
+*{
+    color: black
+}
+
+
+
+/* inheritance */
+/* children inherit styles from the parent,
+unless hava their own styles */
+
+body{
+    color: forestgreen;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    border: 10px solid black;
+}
+#heading{
+    color: #000;
+    font-size: 50px;
+}
+.special{
+    color: fuchsia;
+    font-family:sans-serif;
+}
+
+
+### html for part 1###
+-------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+<div>
+    <h1 id="heading">Heading number one</h1>
+    <p class="special">
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Ullam facilis corporis maxime non quaerat eos illo possimus, 
+         officia inventore ducimus nemo pariatur cum. Doloribus
+         vero distinctio ducimus qui numquam atque?
+    </p>
+</div>
+</body>
+</html>

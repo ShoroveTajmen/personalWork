@@ -1,0 +1,101 @@
+1....## html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+   <ul class="navbar">
+       <li>simple link</li>
+   </ul>
+   <div class="banner"></div>
+</body>
+</html>
+
+
+
+## css ##
+/* 
+calc(),perform math operation + - * /
+mix and match values */
+
+/* height:auto;min-height;max-height;overflow */
+
+
+
+*{
+    margin: 0px;
+}
+
+.navbar{
+    background: blue;
+    height: 6rem;
+    color: darkgrey;
+    font-size: 3rem;
+}
+.banner{
+    background: crimson;
+   min-height: calc(100vh - 6rem);
+   max-height: 100vh;
+}
+.example{
+    background: darkolivegreen;
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+
+
+
+
+
+2............## css ##
+
+/* 
+font-weight how thick or thin character in text should be
+font-style sets font style for a text
+ */
+
+ body{
+     font-family: 'Courier New', Courier, monospace;
+     font-weight:bold;
+ }
+ .main_heading{
+     font-family:serif;
+     font-size: 100px;
+     font-weight: bold;
+     font-style: italic;
+ }
+
+
+
+
+
+## html ##
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+  <h1 class="main_heading">hello all</h1>
+  <h2 class="sub_heading">Lorem ipsum dolor sit amet.</h2>
+  <p class="one">Lorem ipsum dolor sit amet consectetur 
+      adipisicing elit. Adipisci, pariatur.</p>
+  <h3 class="two">hello everyone what'sup</h3>
+</body>
+</html>
