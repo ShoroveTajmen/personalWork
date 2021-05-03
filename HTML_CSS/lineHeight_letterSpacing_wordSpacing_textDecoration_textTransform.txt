@@ -1,0 +1,78 @@
+### CSS ###
+------------
+
+/* 
+Line-height ---> if number * by font-size
+Letter-spacing
+word-spacing
+text-decoration 
+text-transform
+ */
+
+
+ body{
+     font-size: 20px;
+     line-height: 1.5;
+ }
+ h1{
+     color:blueviolet;
+     letter-spacing: 1rem;
+ }
+ .one{
+     color:crimson;
+    word-spacing: 20px;
+    text-decoration:underline;
+ }
+ .two{
+     line-height: 20px;
+     text-transform: capitalize;
+     text-decoration:line-through;
+ }
+ .three{
+     color: darkgreen;
+     letter-spacing: 20px;
+     text-decoration: underline;
+ }
+
+
+
+
+
+## HTML ##
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+  <a href="#">google</a>
+  <h1>hello everyone</h1>
+  <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Quidem nisi voluptatibus molestiae reprehenderit vero porro?
+      Saepe, neque delectus! Reiciendis corporis quas deserunt vero hic, 
+      veritatis aut nihil aliquid ad quisquam inventore! Molestias, placeat voluptate. 
+      Maiores exercitationem vel veritatis quisquam a aperiam maxime, rerum soluta nisi 
+    officia provident voluptatem necessitatibus hic.</p>
+
+    <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quidem nisi voluptatibus molestiae reprehenderit vero porro?
+      Saepe, neque delectus! Reiciendis corporis quas deserunt vero hic,
+      veritatis aut nihil aliquid ad quisquam inventore! Molestias, placeat voluptate.
+      Maiores exercitationem vel veritatis quisquam a aperiam maxime, rerum soluta nisi
+      officia provident voluptatem necessitatibus hic.</p>
+
+      <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quidem nisi voluptatibus molestiae reprehenderit vero porro?
+        Saepe, neque delectus! Reiciendis corporis quas deserunt vero hic,
+        veritatis aut nihil aliquid ad quisquam inventore! Molestias, placeat voluptate.
+        Maiores exercitationem vel veritatis quisquam a aperiam maxime, rerum soluta nisi
+        officia provident voluptatem necessitatibus hic.</p>
+</body>
+</html>

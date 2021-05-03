@@ -1,0 +1,114 @@
+/* BLOCK: browser respects width/height,top/bottom margin
+INLINE: browser does not respect width/height, top/bottom margin
+Navbar
+list-style-type: property
+descendent selector */
+
+
+## HTML ##
+-------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="#">home</a></li>
+    <li><a href="#">about us</a></li>
+    <li><a href="#">products</a></li>
+    <li><a href="#">contact</a></li>
+  </ul>
+
+</body>
+</html>
+
+
+
+
+## CSS ##
+-------------
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    list-style-type: square;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: tomato;
+    letter-spacing: 1px;
+    background: wheat;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+2. /* box-sizing: border-box
+default content-box */
+
+
+
+## HTML ##
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+  <div class="box1">i am box one</div>
+  <div class="box2">i am box two</div>
+  <div class="box3">i am box three</div>
+
+</body>
+</html>
+
+
+
+## CSS ##
+-------------
+
+.box1,.box2,.box3{
+    width: 200px;
+    height: 200px;
+    color:black;
+}
+.box1{
+    background: wheat;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px dotted black;
+    margin: 10px;
+}
+.box2{
+    background: yellowgreen;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box3{
+    background: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+}
