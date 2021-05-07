@@ -1,0 +1,56 @@
+/* linear gradients */
+
+## HTML ##
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+ <div class="one"></div>
+  <div class="two"></div>
+    <div class="three"></div>
+      <div class="four"></div>
+        <div class="five"></div>
+          <div class="six"></div>
+</body>
+</html>
+
+
+
+## CSS ###
+------------
+
+
+
+div{
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
+
+.one{
+    background: linear-gradient(to right, yellow,green);
+}
+.two{
+    background: linear-gradient(to top,blue,green,red,yellow);
+}
+.three{
+    background: linear-gradient(300deg,red,green);
+}
+.four{
+    background: linear-gradient(to bottom left,red 50%,green);
+}
+.five{
+    background: linear-gradient(blue 30%,yellow 70%);
+}
+.six{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.90));
+}

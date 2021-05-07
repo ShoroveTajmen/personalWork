@@ -1,0 +1,60 @@
+/* background-position*/
+
+## HTML ##
+------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <!--style for internal css-->
+</head>
+<body>
+  <div class="big-img">
+    <h1>i am big image</h1>
+  </div>
+  <div class="small-img">
+    <h1>i am small image</h1>
+  </div>
+  <div class="folder-img">
+    <h1>i am folder image</h1>
+  </div>
+</body>
+</html>
+
+
+
+## CSS ##
+-----------
+
+div{
+    height:300px;
+    color: white;
+    border: 2px yellow solid;
+}
+.big-img{
+    background:url('./big-imgg\(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.small-img{
+    background:url('./pexels-photo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+  
+}
+.folder-img{
+    background:url('./images/lemon.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: 40% 30%;
+}

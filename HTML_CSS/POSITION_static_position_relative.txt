@@ -1,0 +1,60 @@
+/* position: static - default, always positioned
+according to the normal flow,
+position: relative - position relative to it's
+normal position.
+top,bottom, left,right */
+
+
+## HTML ##
+------------
+
+</head>
+<body>
+  <div>
+    <p class="one">
+    Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Ipsum vitae unde earum exercitationem deleniti nulla quae reiciendis
+    vel consequuntur iste.
+  </p>   
+  <p  class="two">
+    Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Ipsum vitae unde earum exercitationem deleniti nulla quae reiciendis
+    vel consequuntur iste.
+    <span class="span">!!! i am span</span>
+  </p>
+</div>
+  
+</body>
+</html>
+
+
+
+
+## CSS ##
+-----------
+
+
+div{
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    padding: 5px;
+}
+.one{
+    background: blue;
+    color: white;
+    position: relative;
+    /* top: 200px; */
+    /* bottom: 2rem; */
+    left: 20%;
+    /* right: 40px; */
+}
+.two{
+    background: green;
+    color: white;
+}
+.span{
+    background: violet;
+    color: black;
+    font-size: 20px;
+}
