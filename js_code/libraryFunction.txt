@@ -1,0 +1,39 @@
+## library function for string ###
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn javascript</title>
+</head>
+
+<body>  
+    <script>
+    //    var text = "shorove";
+    //    var len = text.length;
+    //    document.write("number of character " +  len);
+
+
+    // user input
+    // var text = prompt("Enter your name: ");
+    // document.write("number of character: " + text.length);
+    // document.write( " two number char is: " + text.charAt(2));
+
+    // var text = "shorove";
+    // var text1= text.toLowerCase();
+    //  document.write(" uppercase: " + text1);
+
+
+    // var text1 = "shorove";
+    // var text2 = " tajmen";
+    // document.write(text1.concat(text2));
+
+    var text = "shorove";
+    var text = text.slice(3,6);
+    document.write(text);
+    </script>
+</body>
+</html>

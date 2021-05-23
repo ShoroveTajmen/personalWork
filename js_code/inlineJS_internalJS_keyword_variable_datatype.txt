@@ -1,0 +1,87 @@
+## INLINE JAVASCRIPT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn javascript</title>
+</head>
+<!-- inline javascript -->
+<body onload="alert('hello');">  
+    <h1>hi there this is my first javascript</h1> 
+    
+</body>
+</html>
+
+
+##INTERNAL JAVASCRIPT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn javascript</title>
+</head>
+<!-- inline javascript -->
+<body>  
+   <h1>hello everyone</h1>
+   <script>
+       alert('hello');
+   </script>
+    
+</body>
+</html>
+
+//script tag must be write at the last of the body tag
+
+
+
+
+
+
+
+
+### data types of js####
+
+string,number,boolean,objects
+
+
+
+
+
+
+## VARAIABLE DECLARATION ###
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn javascript</title>
+</head>
+
+<body>  
+   <script>
+       //variable declaration
+
+
+    //    var name = "shorove";
+    //    var age = 21;
+    //OR
+
+    var name,age;
+    name = "shorove";
+    age = 21
+
+       document.write(name);
+       document.write(age);
+   </script>
+    
+</body>
+</html>

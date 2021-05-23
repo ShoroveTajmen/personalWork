@@ -1,0 +1,29 @@
+var num = "2.567";
+
+//convert number type to integer
+// num = tostring(num)
+
+
+
+// convert string into  int number
+// num = parseInt(num);
+
+// convert string into  float number
+// num = parseFloat(num);
+
+
+//toFixed method is used for how many number
+// we see that after decimal
+//nums = num.toFixed(1);
+
+
+//precision method used for how many total number we
+// see in the output section
+// nums = num.toPrecision(3);
+
+
+
+//number methods is directly convert any input as a 
+//number type
+nums = Number(num);
+console.log(typeof(nums));
