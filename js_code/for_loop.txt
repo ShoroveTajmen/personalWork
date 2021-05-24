@@ -1,0 +1,14 @@
+### For Loop ### 
+
+for(var x = 1; x <= 10; x++){
+    document.write("my name is shorove <br/>")
+}
+document.write(" End ")
+
+
+
+
+for(var x = 1; x <= 10; x++){
+    document.write(" " +x)
+}
+document.write(" End ")
