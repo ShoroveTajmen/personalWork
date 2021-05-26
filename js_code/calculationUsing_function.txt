@@ -1,0 +1,43 @@
+//making a calculator using function
+
+
+//summation
+
+function summation(num1,num2){
+    var sum = num1 + num2;
+    document.write("summation  is : " + sum + "<br/>")
+}
+
+//subtraction
+
+function subtraction(num1,num2){
+    var sub = num1 - num2;
+    document.write("sub  is : " + sub + "<br/>")
+}
+
+//product
+
+function product(num1,num2){
+    var product = num1 * num2;
+    document.write("product  is : " + product + "<br/>")
+}
+
+//division
+
+function division(num1,num2){
+    var div = num1 / num2;
+    document.write("division  is : " + div + "<br/>")
+}
+
+//modules
+
+function modules(num1,num2){
+    var mod = num1 % num2;
+    document.write("modules  is : " + mod + "<br/>")
+}
+
+summation(20,10);
+subtraction(20,10);
+product(20,10);
+division(20,10);
+modules(20,10);

@@ -1,0 +1,25 @@
+//Array
+
+// var names = new Array(5);
+// names[0] = "shorove";
+// names[1] = "shila";
+// names[2] = "riya";
+// names[3] = "mila";
+// names[4] = "tiya";
+
+// console.log(names);
+// console.log(names[1]);
+// console.log(names[3]);
+
+
+//another way
+
+var names = ["shorove","riya","rima","shila","samia"];
+console.log(names.length)
+names.push("rohan");
+names.push("roman");
+console.log(names.length);
+names.pop();
+console.log(names.length);
+names.pop();
+console.log(names.length);
