@@ -1,0 +1,53 @@
+## JS ##
+
+//using DOM we can 
+//-> find/get,,change,,add,,or,,delete HTML element
+
+
+//creating HTML element
+var heading3 = document.createElement("h1");
+var text3 = document.createTextNode("this is heading3");
+//append element
+heading3.appendChild(text3);
+
+var mydiv = document.getElementById("my-div");
+mydiv.appendChild(heading3);
+
+
+//remove element
+var heading2 = document.getElementsByTagName("h1")[1];
+mydiv.removeChild(heading2);
+
+
+var heading0 = document.createElement("h1");
+var text0  = document.createTextNode("this is heading0");
+heading0.appendChild(text0);
+
+var heading1 = document.getElementsByTagName("h1")[0];
+mydiv.insertBefore(heading0,heading1);
+
+
+
+
+### HTML ##
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn javascript</title>
+</head>
+
+<body>  
+    <a href="#">visit google</a>
+    <div id="my-div" style="background-color: bisque;">
+        <h1>hello</h1>
+        <h1>GoodBye</h1>
+    </div>
+    
+
+    <script src="./app.js"> </script>
+</body>
+</html>  

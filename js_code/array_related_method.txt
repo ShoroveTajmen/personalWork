@@ -1,0 +1,44 @@
+var names = ["Anis","Rabeya","Kolpona"];
+console.log(names);
+
+//using shift function we can remove element from
+//the first of an array also it is reverse of pop
+//function
+
+names.shift();
+console.log(names);
+
+//using unshift function we can add eleement in the top
+//of the array and its opposite of push function
+
+names.unshift("shorove");
+console.log(names);
+
+//adding element splice method(index number,number of
+//elemnt we want dlt,,insert element)
+// names.splice(2,0,"shila","rupa","supti");
+// console.log(names);
+
+
+//dlt element using splice method(statin index,end index)
+// names.splice(1,2);
+// console.log( names)
+
+
+//slice method()
+// var newArray = names.slice(1);
+// console.log(newArray)
+
+
+//sort  methods just used for string
+var sortedName = names.sort();
+names.reverse();
+console.log(sortedName);
+
+
+//how to sorting number
+var num = [20,23,34,45,55];
+num.sort(function(a,b){
+    return a-b; // if we using b-a its display discending orderly
+});
+console.log(num)

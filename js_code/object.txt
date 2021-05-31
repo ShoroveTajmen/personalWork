@@ -1,0 +1,36 @@
+//object
+
+// var student1 = {
+//     name : "shorove",
+//     age : 21,
+//     cgpa : 3.98,
+//     lang : ["bangla","english"]
+// }
+
+// console.log(student1.name);
+// console.log(student1.age);
+// console.log(student1.cgpa);
+
+
+//Another way to create object using constructor
+
+//constructor
+function student(name,age,cgpa,lang){
+    this.name = name;
+    this.age = age;
+    this.cgpa = cgpa;
+    this.lang = lang;
+
+    this.display = function(){
+        console.log(this.name);
+         console.log(this.age);
+          console.log(this.cgpa);
+           console.log(this.lang);
+    }
+}
+//now creating object
+
+var student1 = new student("shorove",21,3.98,["bangla","English"]);
+student1.display();
+var student2 = new student("rohan",13,3.5,["bangla","english"]);
+student2.display();

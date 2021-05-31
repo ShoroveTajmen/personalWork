@@ -1,0 +1,22 @@
+//DOM --> document object model
+//getelementbyId
+
+var heading1 = document.getElementById("head1");
+heading1.innerHTML = "my name is shorove";
+
+document.getElementById("head2").innerHTML = "i am 21";
+
+var heading2 = document.getElementById("para");
+heading2.innerHTML = "study at cse";
+
+
+
+//getElementsByTagName
+
+document.getElementsByTagName("p")[0].innerHTML = "hwllo";
+"hwllo"
+
+
+//getElementsByClassName
+document.getElementsByClassName("head1")[0].innerHTML = "shorove";
+"shorove"

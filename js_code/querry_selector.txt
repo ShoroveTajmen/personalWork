@@ -1,0 +1,18 @@
+//we use querryselector instead of getElementById(),
+//getElementByTagName(),getElementByClassName()
+
+
+document.querySelector(".head1").innerHTML = "hello there";
+document.querySelector(".head2").innerHTML = "hi";
+document.querySelector("#para").innerHTML = "this is para";
+
+
+//querrySelectorAll
+
+document.querySelectorAll("p")[0].innerHTML = "first";
+"first"
+document.querySelectorAll("p")[1].innerHTML = "second";
+"second"
+
+
+
