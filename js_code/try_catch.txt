@@ -1,0 +1,19 @@
+//try , catch
+
+
+## js code ##
+-------------
+try{
+//code test
+alert("hello everyone");
+alert(x);
+alert("bye everyone");
+}catch(err){
+// handle error
+console.log(err);
+console.log(err.name);
+console.log(err.message);
+
+}finally{
+  alert("bye everyone");
+}
