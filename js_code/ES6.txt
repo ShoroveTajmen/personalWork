@@ -1,0 +1,32 @@
+//  using let how to declare variable
+
+
+// let x = 11;
+// for(let x = 1; x<=10; x++){
+//   console.log(x);
+// }
+// console.log(x);
+
+
+
+// string concatination using ES6
+// let x = 25;
+// let y = 30;
+//   let sum = x + y;
+//   console.log(`sum is ${sum}. the end`);
+
+
+// let name1 = "Anisul Islam";
+// let message = `i am ${name1} I am learning js`;
+// console.log(message);
+
+
+
+
+//function declare using ES6
+
+const add = (x,y) => {
+  var sum = x+y;
+  console.log(sum);
+}
+add(20,30);
